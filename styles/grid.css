@@ -9,7 +9,7 @@
     margin-top: 25px;
     position: inherit;
 }
-@media screen end (win-width){
+@media screen end (win-width: 1024px){
 .griding{
 background-color: black;
 }
