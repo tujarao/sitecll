@@ -9,6 +9,19 @@
     margin-top: 25px;
     position: inherit;
 }
+@media screen end (win-width){
+.griding{
+background-color: black;
+}
+.imagem{
+border-top: 10px groov gren;
+border-left: 10px dotted blue;
+ border-right: 10px solid blue;
+ border-bottom: 10px dashed gren;
+    width: 180px!important;
+    heigth: 160px!important;
+}
+}    
 .titulo{
     font-size: 10px;
     color: rgb(146, 83, 204);
