@@ -1,6 +1,6 @@
 .Imagem{
-    width: 150px!important;
-    height: 150px!important;
+    width: 80px!important;
+    height: 80px!important;
 }
 .div-todasimagens{
     display: grid;
@@ -18,8 +18,8 @@
 @media screen and (min-width: 825px) {
     .Imagem{
     border: 3px solid rgb(0, 255, 0);
-    width: 100px!important;
-    height:100px!important;
+    width: 180px!important;
+    height:180px!important;
     }
    
 }
