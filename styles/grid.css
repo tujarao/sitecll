@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 16% 30% 8% 30% 16%;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 55px;
     position: inherit;
 }
 .titulo{
