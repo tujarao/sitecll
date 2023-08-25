@@ -11,13 +11,13 @@
 }
 .titulo{
     font-size: 10px;
-    color: rgb(146, 83, 204);
+    color: rgb(0, 25, 154);
     margin-bottom: 7px;
     text-align: center;
 }
 @media screen and (min-width: 825px) {
     .Imagem{
-    border: 3px solid rgb(128, 0, 38);
+    border: 3px solid rgb(0, 255, 0);
     width: 100px!important;
     height: 80px!important;
     }
