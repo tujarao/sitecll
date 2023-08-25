@@ -19,8 +19,8 @@
 @media screen and (min-width: 825px) {
     .Imagem{
     border: 2px solid rgb(0, 255, 0);
-    width: 200px!important;
-    height:200px!important;
+    width: 300px!important;
+    height:300px!important;
     }
    
 }
