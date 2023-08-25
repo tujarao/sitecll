@@ -13,7 +13,7 @@
 .titulo{
     font-size: 25px;
     color: #00FA9A;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
     text-align: center;
 }
 @media screen and (min-width: 825px) {
