@@ -1,10 +1,11 @@
 .Imagem{
     width: 100px!important;
     height: 100px!important;
+    border: 1px solid rgb(0, 0, 250);
 }
 .div-todasimagens{
     display: grid;
-    grid-template-columns: 6% 40% 8% 40% 6%;
+    grid-template-columns: 16% 30% 8% 30% 16%;
     text-align: center;
     margin-top: 25px;
     position: inherit;
@@ -17,7 +18,7 @@
 }
 @media screen and (min-width: 825px) {
     .Imagem{
-    border: 3px solid rgb(0, 255, 0);
+    border: 2px solid rgb(0, 255, 0);
     width: 200px!important;
     height:200px!important;
     }
