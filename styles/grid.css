@@ -9,14 +9,11 @@
     margin-top: 25px;
     position: inherit;
 }
-@media screen end (win-width: 1024px){
-.imagem{
-border-top: 10px groov gren;
-border-left: 10px dotted blue;
- border-right: 10px solid blue;
- border-bottom: 10px dashed gren;
-    width: 180px!important;
-    heigth: 160px!important;
+@media screen and (min-width: 825px) {
+    .Imagem{
+    border: 3px solid rgb(128, 0, 38);
+    width: 100px!important;
+    height: 80px!important;
 }
 }    
 .titulo{
