@@ -4,13 +4,13 @@
 }
 .div-todasimagens{
     display: grid;
-    grid-template-columns: 10% 30% 20% 30% 10%;
+    grid-template-columns: 10% 30% 10% 30% 10%;
     text-align: center;
     margin-top: 25px;
     position: inherit;
 }
 .titulo{
-    font-size: 50px;
+    font-size: 25px;
     color: #00FA9A;
     margin-bottom: 7px;
     text-align: center;
