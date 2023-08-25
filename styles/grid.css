@@ -1,4 +1,4 @@
-.Imagem{
+Imagem{
     width: 80px!important;
     height: 60px!important;
 }
@@ -9,16 +9,17 @@
     margin-top: 25px;
     position: inherit;
 }
-@media screen and (min-width: 825px) {
-    .Imagem{
-    border: 3px solid rgb(128, 0, 38);
-    width: 100px!important;
-    height: 80px!important;
-}
-}    
 .titulo{
     font-size: 10px;
     color: rgb(146, 83, 204);
     margin-bottom: 7px;
     text-align: center;
+}
+@media screen and (min-width: 825px) {
+    .Imagem{
+    border: 3px solid rgb(128, 0, 38);
+    width: 100px!important;
+    height: 80px!important;
+    }
+   
 }
