@@ -1,7 +1,7 @@
 .Imagem{
     width: 100px!important;
     height: 100px!important;
-    border: 2px solid rgb(0, 255, 0);
+    border: 2px solid rgb(0, 0, 255);
 }
 .div-todasimagens{
     display: grid;
