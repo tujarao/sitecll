@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
 </head>
 <body>
@@ -55,6 +56,34 @@
            <a href="#"><img class="container__imagem" src="img/Usuario.svg" alt="meu perfil"></a>
         </div>
     </header>
+    <section class="carrossel">
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"> <img class="carrossel_img" src="img/i1.jpeg" alt=""></div>
+            <div class="swiper-slide"><img class="carrossel_img" src="img/i2.jpeg" alt=""></div>
+            <div class="swiper-slide"><img class="carrossel_img" src="img/i3.jpeg" alt=""></div>
+            <div class="swiper-slide"><img class="carrossel_img" src="img/i3.jpeg" alt=""></div>
+            <div class="swiper-slide"><img class="carrossel_img" src="img/i3.jpeg" alt=""></div>
+
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+
+
     <section class="gridimg">
         <div class="div-todasimagens">
             <span>
@@ -123,18 +152,26 @@
         </div>
 
     </section>
-               <section>
-                  <h1>informações</h1>
+        <section>
+            <h1>informações</h1>
 
-                    <h1 class="titulo">oque são veículos?<h1/>
-<p2>VEÍCULO AUTOMOTOR - todo veículo a motor de propulsão que circule por seus próprios meios, e que serve normalmente para o transporte viário de pessoas e coisas, ou para a tração viária de veículos utilizados para transporte de pessoas e coisas.<p2/>
+            <h1 class="titulo">Oque são veículos?<h1/>
+            <p2>VEÍCULO AUTOMOTOR - todo veículo a motor de propulsão que circule por seus próprios meios, e que serve normalmente para o transporte viário de pessoas e coisas, ou para a tração viária de veículos utilizados para transporte de pessoas e coisas.<p2/>
 
-                   <h1 class="titulo">O que se enquadra em veículo?<h1/>
-<p2>Veículo automotor, misto, com quatro rodas, com carroçaria, destinado ao transporte simultâneo ou alternativo de pessoas e carga no mesmo compartimento.<p2/>
+            <h1 class="titulo">O que se enquadra em veículo?<h1/>
+            <p2>Veículo automotor, misto, com quatro rodas, com carroçaria, destinado ao transporte simultâneo ou alternativo de pessoas e carga no mesmo compartimento.<p2/>
+            <img class="Imagem" src="img/maiata.jpg" alt="">
+        </section>
 
-    
-    <center> <img class="Imagem" src="img/maiata.jpg" alt=""></center>
-                   
-               </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 100,
+        autoplay: {
+        delay: 1000,
+        },
+        });
+        </script>
+
 </body>
 </html>
